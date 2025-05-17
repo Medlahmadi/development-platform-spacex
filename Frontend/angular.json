@@ -14,8 +14,8 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": {
-              "base":"./../Backend/src/main/resources/static/",
-              "browser":""
+              "base": "./../Backend/src/main/resources/static/",
+              "browser": ""
             },
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -94,6 +94,19 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        }
+      }
+    },
+    "development-platform-spacex-frontend": {
+      "architect": {
+        "build": {
+          "configurations": {
+            "production": {
+              "optimization": {
+                "fonts": false
+              }
+            }
           }
         }
       }
