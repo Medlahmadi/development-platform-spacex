@@ -109,7 +109,9 @@
             }
           }
         }
-      }
+      },
+      "root": "",
+      "sourceRoot": "src"
     }
   },
   "cli": {
